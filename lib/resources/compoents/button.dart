@@ -13,8 +13,7 @@ class Mybuttton extends StatelessWidget {
     return ElevatedButton(
       onPressed: onpress,
       style: ElevatedButton.styleFrom(
-        primary: Color.fromARGB(255, 115, 155, 6), // Background color
-        onPrimary: Colors.white, // Text color
+        foregroundColor: Colors.white, backgroundColor: Color.fromARGB(255, 115, 155, 6), // Text color
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(5), // Rounded corners
         ),
